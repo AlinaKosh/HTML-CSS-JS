@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>typescript</title>
+        <script src="dest/script.js"></script>
+        <script src="dest/creator.js">
+            
+        </script>
+</head>
+<body>
+    <form>
+        <select name="tag" id="tagSelect" onchange="(e=>{selectTag(e.target.value)})(event)">
+            <option value="div">div</option>
+            <option value="a">a</option>
+            <option value="form">form</option>
+            <option value="h1">h1</option>
+            <option value="input">input</option>
+        </select>
+        <br>
+        <input type="text" name="class" id="">class<br>
+        <input type="text" name="id" id="">id<br>
+        <div><input type="text" name="href">href</div>
+        <div><input type="text" name="target">target</div>
+        <div><input type="text" name="method">method</div>
+        <div><input type="text" name="action">action</div>
+        <div><input type="text" name="type">type</div>
+        <div><input type="text" name="name">name</div>
+        <div><input type="text" name="value">value</div>
+        <div><input type="text" name="inner">inner</div>
+        <button onclick="event.preventDefault(); createE()">Create</button>
+    </form>
+</body>
+
+</script>
+<script>
+
+</script>
+</html>
