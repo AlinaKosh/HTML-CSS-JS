@@ -1,0 +1,15 @@
+{
+  "name": "films",
+  "version": "1.0.0",
+  "description": "Films",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "author": "Alinka",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
